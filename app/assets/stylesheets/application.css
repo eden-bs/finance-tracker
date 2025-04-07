@@ -8,3 +8,9 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+ .navbar-brand {
+    font-size: 2rem;
+  }
+  .close {
+    float: right;
+  }
