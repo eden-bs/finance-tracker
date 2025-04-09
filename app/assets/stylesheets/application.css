@@ -7,10 +7,31 @@
  * depending on specificity.
  *
  * Consider organizing styles into separate files for maintainability.
+  *= require font-awesome
+
  */
+ 
  .navbar-brand {
     font-size: 2rem;
   }
   .close {
     float: right;
+  }
+  .search-area {
+    padding-top: 50px
+  }
+  .no-right-paddin {
+    padding-right: 0px !important;
+
+  }
+  .no-left-paddin {
+    padding-left: 0 !important;
+
+  }
+  .logout-button {
+    margin-right: 5px;
+  }
+  .user-name {
+    margin-top: 3.5%;
+    padding-right: 5px;
   }
